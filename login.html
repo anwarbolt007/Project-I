@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a676d8614d.js"></script>
+    <title>Glamorous</title>
+    <link rel="icon" href="images/logo1.PNG">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img class="logo1" src="images/logo1.PNG" alt="error"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="login.html"><button class="login">Login</button></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+    <section id="container">
+         <div class="card">
+               <div class="inner-box" id="card">
+                    <div class="card-front">
+                        <form>
+                            <h2>Login</h2>
+                            <input class="input-box" type="email" placeholder="Email">
+                            <input  class="input-box"type="password" placeholder="Password">
+                            <button type="submit" id="submit" class="btn">Submit</button>
+                            <input type="checkbox" ><span>Remember Me</span>
+                            </form>
+                            <button id="submit" class="on"  onclick="opensignup()">Signup</button>
+                            <a href="#">Forgot Password</a>
+                    </div>
+                    <div class="card-back">
+                        <form>
+                            <h2>Signup</h2>
+                            <input class="input-box" type="text" placeholder="Username">
+                            <input class="input-box" type="email" placeholder="Email">
+                            <input  class="input-box"type="password" placeholder="Password">
+                            <button type="submit" id="submit" class="btn">Submit</button>
+                            <input type="checkbox" ><span class="span">Remember Me</span>
+                            </form>
+                            <button id="submit" class="on"  onclick="openlogin()">Login</button>
+                            <a href="#">Forgot Password</a>
+                    </div>
+               </div>
+         </div>
+    </section>
+
+    <script>
+        var card=document.getElementById("card");
+        function opensignup(){
+            card.style.transform="rotateY(-180deg)"
+        }
+        function openlogin(){
+            card.style.transform="rotateY(0deg)"
+        }
+    </script>
+</body>
+</html>

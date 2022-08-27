@@ -81,7 +81,7 @@ body{
     align-items: flex-start;
     justify-content: center;
     /* background-color:blue; */
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/back.jpg");
+    background-image: url("Project-I/images/back.jpg");
 }
 #contect h4{
     padding-bottom: 15px;

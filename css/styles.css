@@ -220,7 +220,7 @@ body{
     align-items: center;
     text-align: center;
     /* background-color: blue; */
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/b2.jpg");
+    background-image: url("main/images/b2.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -265,7 +265,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     /* background-color: blue; */
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/b17.jpg");
+    background-image: url("main/images/b17.jpg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -278,7 +278,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     /* background-color: blue; */
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/b10.jpg");
+    background-image: url("main/images/b10.jpg");
     min-width: 680px;
     height: 50vh;
     background-size: cover;
@@ -328,7 +328,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     /* background-color: blue; */
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/b7.jpg");
+    background-image: url("main/images/b7.jpg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -347,11 +347,11 @@ body{
     font-size: 15px;
 }
 #offerbox .back{
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/foo.jpg");
+    background-image: url("main/images/foo.jpg");
     /* background-color: #222; */
 }
 #offerbox .front{
-    background-image:url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/b18.jpg") ;
+    background-image:url("main/images/b18.jpg") ;
     /* background-color: #cce7d0; */
 }
 #email{
@@ -504,7 +504,7 @@ body{
 }
 
 #shop-content{
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/b1.jpg");
+    background-image: url("main/images/b1.jpg");
     width:100%;
     height:40vh;
     background-size: cover;
@@ -534,7 +534,7 @@ body{
     font-weight: 600;
 }
 #blog-content{
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/b19.jpg");
+    background-image: url("main/images/b19.jpg");
     width:100%;
     height:40vh;
     background-size: cover;
@@ -601,7 +601,7 @@ body{
     z-index: -9;
 }
 #about-content{
-    background-image: url("https://github.com/anwarbolt007/anwarbolt007.github.io/blob/main/images/banner.png");
+    background-image: url("main/images/banner.png");
     width:100%;
     height:40vh;
     background-size: cover;
@@ -633,7 +633,7 @@ body{
 }
 
 #contact-content{
-    background-image: url("C:/Users/Ayaz Anwar/Documents/DSA/Project-I/images/banner.png");
+    background-image: url("main/images/banner.png");
     width:100%;
     height:40vh;
     background-size: cover;
